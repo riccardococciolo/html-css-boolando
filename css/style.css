@@ -8,3 +8,42 @@
 img {
     max-width: 100%;
 }
+
+/* header */
+header {
+    background-color: darkorange;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-actions-1 {
+    width: 20%;
+    font-size: .8rem;
+}
+
+.nav-actions-2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.nav-logo {
+    width: 20%;
+    padding: 1rem;
+}
