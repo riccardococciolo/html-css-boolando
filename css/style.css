@@ -47,3 +47,78 @@ header {
     width: 20%;
     padding: 1rem;
 }
+
+/* main */
+.main-container {
+    width: 80%;
+    margin: 6rem auto 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.col {
+    width: calc(100% / 3 - 1rem);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.brand {
+    font-size: .9rem;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.price {
+    color: red;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.discount-through {
+    color: black;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.heart {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+    padding: .5rem;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.discount {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    background-color: red;
+    padding: .2rem .5rem;
+    color: white;
+    font-size: .7rem;
+}
+
+.green {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    left: 45px;
+    background-color: green;
+    padding: .2rem .5rem;
+    color: white;
+    font-size: .7rem;
+}
