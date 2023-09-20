@@ -122,3 +122,25 @@ header {
     color: white;
     font-size: .7rem;
 }
+
+.green-1 {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    background-color: green;
+    padding: .2rem .5rem;
+    color: white;
+    font-size: .7rem;
+}
+
+.second-img {
+    display: none;
+}
+
+.change-img:hover .first-img {
+    display: none;
+}
+
+.change-img:hover .second-img {
+    display: inline-block;
+}
